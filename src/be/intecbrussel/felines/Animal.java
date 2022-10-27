@@ -50,7 +50,14 @@ public class Animal {
         return true;
     }
 
-
-
-
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "size=" + size +
+                ", coat=" + coat +
+                ", color='" + color + '\'' +
+                ", weight=" + weight +
+                ", noise='" + noise + '\'' +
+                '}';
+    }
 }

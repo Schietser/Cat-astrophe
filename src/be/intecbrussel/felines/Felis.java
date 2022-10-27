@@ -7,7 +7,7 @@ public class Felis extends Animal {
 
     Random random = new Random();
 
-    private static int vaccinationCount;
+    public static int vaccinationCount;
     private String name;
     private int age;
     private int shelterNo;

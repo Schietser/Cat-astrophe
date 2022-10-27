@@ -14,7 +14,7 @@ public class MainApp {
         NorwegianForrestCat norrie = new NorwegianForrestCat("Norrie",1, 333, 333);
         TurkishVanCat recep = new TurkishVanCat("Recep",7, 444,444);
         SiameseCat siman = new SiameseCat("Siman", 15,555,555);
-        AndeanMountainCat dead2 = new AndeanMountainCat("dead2",8,666,666);
+        AndeanMountainCat dead2 = new AndeanMountainCat("Dead2",8,666,666);
 
         //2
 
@@ -30,7 +30,6 @@ public class MainApp {
 
         System.out.println(Animal.getAnimalcount());
         System.out.println(Felis.getNoOfVaccinatedCats());
-
 
 
 
